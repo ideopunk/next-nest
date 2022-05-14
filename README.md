@@ -8,8 +8,7 @@ Default settings for CORS and validation are applied to `back`, which uses Fasti
 
 To deploy the front-end on Vercel:
 
-Vercel 
 - Build: `yarn --cwd=../.. build`
 - Install: `yarn --cwd=../..`
-- Root Dir: `apps/web`
+- Root Dir: `apps/front`
 

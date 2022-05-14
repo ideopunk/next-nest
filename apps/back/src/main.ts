@@ -15,7 +15,6 @@ async function bootstrap() {
   app.enableCors({ origin: "*" });
   app.useGlobalPipes(new ValidationPipe());
   app.setGlobalPrefix("api/v1");
-  console.log("LET'S GOOOOOOOO");
   await app.listen(8080, "0.0.0.0");
 }
 bootstrap();
